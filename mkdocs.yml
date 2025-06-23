@@ -1,0 +1,60 @@
+site_name: HelloRIC Documentation
+
+nav:
+  - Home: index.md
+  - Emotion: '!import https://helloric:${EMOTION_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-24/ux/emotion.git?branch=main&multi_docs=True'
+  - LLM Server: '!import https://helloric:${LLM_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/language-model.git?branch=dev&extra_imports=["src/**", "pyproject.toml"]&multi_docs=True'
+  - Navigation: '!import https://helloric:${NAVIGATION_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-24/navigation/ricbot-simulation.git?branch=main&extra_imports=["docs/assets/*"]&multi_docs=True'
+
+theme:
+  logo: assets/logo.png
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+
+markdown_extensions:
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - glightbox
+  - mermaid2
+  - macros
+  - mkdocstrings:
+        handlers:
+          python:
+            paths:
+              - temp_dir/llm-server/src
+              - temp_dir/ricbot-simulation/src
+  - multirepo:
+      cleanup: false
+      keep_docs_dir: true
+
+extra:
+  version:
+    provider: mike

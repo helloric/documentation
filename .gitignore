@@ -1,0 +1,4 @@
+.gitlab-ci-local/
+.gitlab-ci-local-variables.yml
+site/
+env/
