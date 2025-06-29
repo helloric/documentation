@@ -1,0 +1,2 @@
+Please say something about the robot {0}. Be verbose.
+Please ask the audience for questions about {0}.
