@@ -7,3 +7,5 @@ The goal of the project is to create a robotic tour guid for the [DFKI Robotics 
 
 ## Overview
 This documentation is entrypoint for future projects that want to use or extend the existing hard- and software, user of the system and other projects or individuals that want to develop similar robotic systems.
+
+THIS IS CURRENTLY WORK IN PROGRESS, HERE YOU WILL FIND AN ARCHITECTURE AND HARDWARE OVERVIEW AS WELL AS AN OUTLINE POINTING TO THE SECTIONS OF THE DOCUMENTATION IN THE FUTURE.
