@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - User Interface: '!import https://helloric:${EMOTION_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-24/ux/emotion.git?branch=main&multi_docs=True'
   - LLM Server: '!import https://helloric:${LLM_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/language-model.git?branch=dev&extra_imports=["src/**", "pyproject.toml"]&multi_docs=True'
+  - Speech to Text: '!import https://helloric:${STT_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/ros_stt.git?branch=main&multi_docs=True'
   - Navigation: '!import https://helloric:${NAVIGATION_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-24/navigation/ricbot-simulation.git?branch=main&extra_imports=["docs/assets/*"]&multi_docs=True'
 
 theme:
