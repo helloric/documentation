@@ -1,0 +1,3 @@
+fail_message=Ich habe nicht ganz verstanden, was du gesagt hast. Könntest du dich bitte wiederholen?
+timeout_message=Etwas ist schiefgelaufen bei mir. Bitte wiederhole das, was du gefragt hast.
+parser_error=Deine Nachricht ist nicht in der gewünschten Form. {0}
