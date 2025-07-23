@@ -38,4 +38,5 @@ jobs:
           LLM_PROJECT_TOKEN: ${{ secrets.LLM_PROJECT_TOKEN }}
           NAVIGATION_PROJECT_TOKEN: ${{ secrets.NAVIGATION_PROJECT_TOKEN }}
           STT_PROJECT_TOKEN: ${{ secrets.STT_PROJECT_TOKEN }}
+          TTS_PROJECT_TOKEN: ${{ secrets.TTS_PROJECT_TOKEN }}
           GIT_LFS_SKIP_SMUDGE: 1
