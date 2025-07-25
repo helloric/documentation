@@ -11,7 +11,7 @@ nav:
   - Hardware Rollen: '!import https://helloric:${ROLLEN_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/hardware/rollen.git?branch=main&multi_docs=True'
   - Hardware Baseplate: '!import https://helloric:${BASEPLATE_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/hardware/baseplate.git?branch=main&multi_docs=True'
   - Hardware Aussenshell: '!import https://helloric:${AUSSENSHELL_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/hardware/ausenshell-und-rollen.git?branch=main&multi_docs=True'
-  - HelloRIC UI COM: 'import https://helloric:${HELLORIC_UI_COM_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/helloric_ui_com.git?branch=main&multi_docs=True'
+  - HelloRIC UI COM: '!import https://helloric:${HELLORIC_UI_COM_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/helloric_ui_com.git?branch=main&multi_docs=True'
   - Navigation: '!import https://helloric:${NAVIGATION_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-24/navigation/ricbot-simulation.git?branch=main&extra_imports=["docs/assets/*"]&multi_docs=True'
   - Zenoh Router: '!import https://helloric:${ZENOH_ROUTER_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/zenoh_router?branch=main&multi_docs=True'
 
