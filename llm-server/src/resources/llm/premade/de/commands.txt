@@ -1,0 +1,2 @@
+Bitte sag etwas über den Roboter {0}. Sei ausführlich.
+Bitte frag das Publikum nach Fragen über den Roboter {0}.
