@@ -1,0 +1,112 @@
+.md-typeset .admonition.post-request,
+.md-typeset details.post-request {
+    border-color: rgb(146, 253, 151);
+}
+
+.md-typeset .post-request > .admonition-title,
+.md-typeset .post-request > summary {
+    background-color: rgba(146, 253, 151, 0.1);
+    padding-left: 4rem !important;
+    font-size: .9rem;
+}
+
+.md-typeset .post-request > .admonition-title::before,
+.md-typeset .post-request > summary::before {
+    content: "POST";
+    color: rgb(146, 253, 151);
+    background-color: transparent;
+    mask-image: none;
+    top: auto;
+}
+
+.md-typeset .admonition.patch-request,
+.md-typeset details.patch-request {
+    border-color: rgb(248, 181, 100);
+}
+
+.md-typeset .patch-request > .admonition-title,
+.md-typeset .patch-request > summary {
+    background-color: rgba(248, 181, 100, 0.1);
+    padding-left: 4rem !important;
+    font-size: .9rem;
+}
+
+.md-typeset .patch-request > .admonition-title::before,
+.md-typeset .patch-request > summary::before {
+    content: "PATCH";
+    color: rgb(248, 181, 100);
+    background-color: transparent;
+    mask-image: none;
+    top: auto;
+}
+
+.md-typeset .admonition.get-request,
+.md-typeset details.get-request {
+    border-color: rgb(119, 196, 232);
+}
+
+.md-typeset .get-request > .admonition-title,
+.md-typeset .get-request > summary {
+    background-color: rgba(119, 196, 232, 0.1);
+    padding-left: 4rem !important;
+    font-size: .9rem;
+}
+
+.md-typeset .get-request > .admonition-title::before,
+.md-typeset .get-request > summary::before {
+    content: "GET";
+    color: rgb(119, 196, 232);
+    background-color: transparent;
+    mask-image: none;
+    top: auto;
+}
+
+
+.md-typeset .admonition.delete-request,
+.md-typeset details.delete-request {
+    border-color: rgb(237, 126, 126);
+}
+
+.md-typeset .delete-request > .admonition-title,
+.md-typeset .delete-request > summary {
+    background-color: rgba(237, 126, 126, 0.1);
+    padding-left: 4rem !important;
+    font-size: .9rem;
+}
+
+.md-typeset .delete-request > .admonition-title::before,
+.md-typeset .delete-request > summary::before {
+    content: "DELETE";
+    color: rgb(237, 126, 126);
+    background-color: transparent;
+    mask-image: none;
+    top: auto;
+}
+
+
+.md-typeset .admonition.put-request,
+.md-typeset details.put-request {
+    border-color: rgb(255, 249, 138);
+}
+
+.md-typeset .put-request > .admonition-title,
+.md-typeset .put-request > summary {
+    background-color: rgba(255, 249, 138, 0.1);
+    padding-left: 4rem !important;
+    font-size: .9rem;
+}
+
+.md-typeset .put-request > .admonition-title::before,
+.md-typeset .put-request > summary::before {
+    content: "PUT";
+    color: rgb(255, 249, 138);
+    background-color: transparent;
+    mask-image: none;
+    top: auto;
+}
+
+.description {
+    font-size: 13px !important;
+    color: rgb(160, 160, 160) !important;
+    padding-left: 20px !important;
+}

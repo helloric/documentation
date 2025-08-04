@@ -1,0 +1,3 @@
+fail_message=I didn't really understand you there. Could you please repeat what you were saying?
+timeout_message=Something went wrong on my end. Please repeat your question.
+parser_error=Your message isn't in the desired format. {0}

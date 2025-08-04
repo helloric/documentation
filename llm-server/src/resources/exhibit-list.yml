@@ -1,0 +1,97 @@
+exhibits:
+  charlie:
+    tags: ['Charlie', 'Affe', 'Monkey']
+    description: 'Charlie ist eine affenähnliche Laufmaschine mit der Fähigkeit, Kräfte in alle Richtungen und in verschiedenen Größenordnungen auf die Umgebung aufzubringen. Er ist mit Punktkontakt-Füßen ausgestattet, da diese das Design und die Kontrolle des Roboters vereinfachen. 
+                  Im Projekt iStruct steht die Entwicklung eines Fußes im Vordergrund, der einen flächigen Kontakt zur Umwelt erlaubt.
+
+                  Charlie ist in seiner Grundhaltung 66cm x 43cm x 75cm groß und 18 kg schwer. Zu den eingesetzten Sensoren gehört ein Drucksensorarray bestehend aus 43 einzelnen FSR-Sensoren in der Fußsohle. Darüber hinaus gibt es sechs zusätzliche FSR-Sensoren an exponierten Stellen zur Kollisionserkennung, einen 6-Achs-Kraft/Drehmoment-Sensor, einen Abstandssensor in der Ferse, um einen bevorstehenden Bodenkontakt zu detektieren, einen digitalen 3-Achs-Beschleunigungsmesser, um die
+                  Orientierung des Fußes wahrzunehmen, zwei Temperatur-Sensoren, um Temperatureinflüsse in den beteiligten Elektroniken zu kompensieren und digitale magnetische Encoder, die alle beweglichen Achsen der Fußstruktur überwachen.
+
+                  Um die Mobilität eines sogenannten „Multi-Lokomotionssystems” zu erhöhen, wird die für Roboter typische starre verbindende Strukturen zwischen dem Vorder- und Hinterkörper durch eine aktuierbare Wirbelsäule
+                  ersetzt. Der Mechanismus ist eine 6-DoF parallel-Kinematik. Die Streben sind in der Wirbelsäule so angeordnet, dass nur Druck-und Zugkräfte auftreten können. Daher kann in jede Achse ein einachsiger
+                  Kraftsensor integriert werden. Dank der integrierten Elektronik kann die gesamte Struktur als ein 6-Achsen-Kraft-Momenten-Sensor verwendet werden.
+
+                  Charlie ist dank der beweglichen Wirblesäule in der Lage, sich selbst aus einer liegenden Position aufzurichten. Außerdem kann der Roboter seinen Schwerpunkt, basierend auf der Schräglage in der er sich befindet, verschieben.'
+    active: False
+  e0car:
+    tags: ['Car', 'E0 smart connecting car 2']
+    description: 'Das E0 smart connecting car 2 ist ein vollfunktionsfähiges Auto mit komfortabler Sitzposition und Scherentüren, die sich nach vorne oben öffnen. Das smarte Auto ist in der Lage, normal, seitwärts und diagonal zu fahren, auf der Stelle zu wenden und sich sogar zu falten, um seine Größe von ca. 2,6 m auf ca. 1,8 m zu verkleinern. Der Board-Computer und das Auto-Navigationssystem bieten umfangreiche Fahrerassistenzsysteme bis hin zur Vollautonomie. Das Koppeln von Fahrzeug und Anhänger, bzw. Fahrzeug und Fahrzeug möglich. Letzteres ermöglicht also auch das Fahren in eng gestaffelten Kolonnen. Ziel des E0 smart connecting car 2 ist, das fahrerlose Auto zu realisieren.
+
+                  Das Auto hat eine Größe von 2,58 m x 1,57 m x 1,6 m und ein Gewicht von 750 kg. Es kann bis zu 65 km/h schnell fahren. Die Stromversorgung wird gewährleistet durch einen 54 V – LiFePo4-Akku. Folgende Motoren sind im smart connecting car verbaut: Vier 4kW Radnaben-Hauptantriebe; zehn Langhub-Linearantriebe mit einem 5000N-Servo für den Faltvorgang.
+                  Das Auto ist ausgestattet mit Hall-Effekt Sensoren für Winkelmessungen und Längenmessungen, Seilzugpoties für Längenmessungen, Stereo-Kameras für vorne und hinten,einem 32-Zeilen Lidar für 3D-Rundumsicht und sechs ToF 3D-Kameras für die Nahbereichsrundumsicht.
+
+                  Gedacht ist das Auto für ein Fahren in sehr dichtem Stadtverkehr. Es ist ideal geeignet für das Parken in Großstädten mit nicht ausreichendem Parkplatz (eine Problematik, die verstärkt wird durch große Fahrzeuge, die meist nur eine Person transportieren). Der Parkvorgang selbst vereinfacht platzsparendes Einparken enorm, dank der speziellen Radmanöver wie dem seitlichen Fahren und Drehungen auf der Stelle.'
+    active: False
+  kris:
+    tags: ['Blue', 'Small', 'Car']
+    description: 'Der KRIS-Roboter ist ein allradgetriebenes Fahrzeug für den Materialtransport in Schadenslagen. Jeder Antrieb liefert in Spitze 250 Nm Drehmoment bei einer Geschwindigkeit von 6 km/h. Durch seine Sensorik erkennt er Menschen und kann durch Gesten des Maschinenführers gesteuert werden. KRIS folgt dem Benutzer und kann so durch unwegsames Gelände geführt werden. Dabei wird eine Umgebungskarte erstellt, die genutzt werden kann, um im Gelände zu navigieren und selbständig einen Transport bis zu 120 kg Zuladung zwischen Wegpunkten zu erledigen. 
+
+                  KRIS hat eine Größe von 1400 x 850 x 995 mm und ein Gewicht von 192 kg. Er kann eine Geschwindigkeit von bis zu 6 km/h erreichen, dafür aber bis zu 120 kg an Zuladung transportieren. Er ist ausgestattet mit mehreren Sensoren, darunter ein Robosense LIDAR, eine Framos Tiefenkamera, sechs Ultraschallsensoren, eine XSense IMU und GPS. 
+
+                  Das DFKI-Projekt Romatris war am 15.6.2024 bei der Bremerhavener Katastrophenschutzübung (Szenario – Sturmflut) mit seinem Robotersystem KRIS als Teilnehmer beteiligt. Das System wird zusammen mit dem THW entwickelt und soll die logistischen Prozesse in akuten Schadenslagen ergänzen bzw. verbessern. Das System folgt den führenden Personen auf Handzeichen und kann erlernte Wegstrecken auf einfachen Knopfdruck selbstständig abfahren, um damit logistische Ketten zu ergänzen und bei schwerem Material, in unwegsamen Gelände, die THW-Einsatzkräfte zu entlasten. 
+
+                  Die DFKI-Forschenden haben die erste Version des Systems im Test- und Ausbildungszentrum des THW in Hoya erfolgreich getestet. Der Roboter beförderte einen 120 Kilogramm schweren Generator, überquerte sicher Bahngleise und erklomm einen Deichhügel. Trotz Dunkelheit konnte er Personen erkennen und auf deren Kommandos reagieren. 
+                  Nach Abschluss des Projekts sollen die Roboter zeitnah in die praktische Anwendung übergehen und dabei helfen, Rettungskräfte im Umgang mit robotischen Systemen zu schulen und die Akzeptanz neuer Technologien zu erhöhen.'
+    active: False
+  underwatertestroom:
+    tags: ['Halle', 'Raum', 'Wasser']
+    description: 'In der Maritimen Explorationshalle können neue Robotertechnologien für den Einsatz auf und unter Wasser getestet werden. Die Halle beinhaltet ein Salzwasserbecken, zwei kleinere separate Testbassins (einem Glasbecken und einem Schwarzbecken), ein Virtual Reality Labor und eine Druckkammer zur Simulation von bis zu 6.600 m Meerestiefe. Es gibt mehrere Kräne von 250 kg bis 12.5 t, welche dazu nützen, die Systeme ins und aus dem Wasser zu bewegen.
+                  Außerdem befinden sich hier weitere Arbeitslabore.
+
+                  Das Hauptbecken ist ein 1.300 m² großes Salzwasserbecken und wurde mit 3,1 Mio. Euro aus EFRE-Mitteln, sowie mit 4 Mio. Euro vom DFKI selbst finanziert, Es fasst 3,4 Mio. Liter Salzwasser.
+                  Das Glasbecken von einer Größe von 40m³ dient zur bestmöglichen Beobachtung von Testabläufen. Das Schwarzbecken von 20 m³ Größe ist dahingehend besonders, dass das Wasser eingetrübt sowie das gesamte Becken abgedunkelt werden kann, um Sichtverhältnisse analog zur Tiefsee herzustellen. Das ist besonders nützlich, um Kamerafunktionen der Robotersysteme zu testen. 
+                  Die Halle ist ebenfalls ausgestattet mit einem Unterwasser-Motion-Tracking-System: zwölf Kameras erkennen optische Marker an den Robotern und berechnen daraus deren genaue Position und Lage im Becken.
+
+                  In der Maritimen Explorationshalle werden konkrete Missionsszenarien aus dem Alltag der Offshore-Industrie nachgestellt, sowie die Fähigkeiten zukünftiger Systeme entwickelt, getestet und demonstriert. Da Salzwasser viel Auftrieb gibt und Bewegung erschwert, können hier sogar Systeme für die Weltraumrobotik  in simulierter Schwerelosigkeit getestet werden.
+
+                  Aus dem Foyer lässt sich das Becken durchs Panoramafenster beobachten'
+    active: False
+  spacetestroom:
+    tags: ['Multifunktion', 'Groß', 'Raum', 'Halle', 'Mond']
+    description: 'Die Multifunktionshalle ist für Aufbau und die Durchführung robotischer Testläufe nutzbar. Die 550m² große Halle ist grob aufgeteilt in eine flexibel nutzbare Experimentierfläche (zwei Drittel der Fläche) und eine Kraterlandschaft (ein Drittel der Fläche), welche anhand von Daten realer Südpolarkrater des Mondes und Fotos der Apollo-Missionen aufgebautwurde. 
+                  Ein Portalkran für bis zu 12,5 t Nutzlast ist in der Halle verfügbar, um schwerere Roboter mühelos bewegen zu können. Die Halle ist außerdem durch ein Vicon Motion-Tracking-System abgedeckt, welches präzise die Pose mehrerer Systeme parallel messen kann (insgesamt 21 Kameras).
+
+                  Die Kraterlandschaft stellt Steigungen von 15° bis 45° für Experimente zur Verfügung, Befestigen von zusätzlichen Hindernissen wie Felsen sind möglich; außerdem können mondähnliche Lichtverhältnisse durch spezielle Scheinwerfer erzeugt werden. Der Krater dient also der Erprobung von frei kletternden robotischen Systemen und der anschaulichen Demonstration der Mobilität der entwickelten Systeme, sodass verschiedenste Lokomotionskonzepte getestet werden können.
+
+                  Die Experimentierfläche beinhaltet eine Lokomotions-Testanlage mit Rampen, einem Laufband und einem kleinen Kran zur Absicherung des getesteten Roboters. Weiterhin gibt es einen MRK-Bereich zum Testen von Mensch-Roboter-Interaktionen.
+                  Die Deckenhöhe von über zehn Metern erlaubt auch Experimente mit flugfähigen Systemen.
+
+                  Drei Integrationsräume mit jeweils rund 24 m² Fläche und ein Integrationsraum mit 44 m² Fläche schließen direkt an die Halle an. Diese ermöglichen Integrations-, Reparatur- und Wartungsarbeiten in kurzen Zyklen abseits der großen Experimentierflächen. 
+                  Aus dem Foyer lässt sich die Halle durchs Panoramafenster beobachten.'
+    active: False
+  shivaa:
+    tags: []
+    description: 'Der Roboter SHIVAA wird für die vollautonome Ernte von Erdbeeren in Freilandkulturen entwickelt.
+                  Am Feldrand positioniert erkennt der Roboter mit Hilfe einer 3D-Kamera selbstständig die Struktur des Feldes und fährt die erste Reihe von Pflanzen an. Dort angekommen identifizieren weitere Kameras die Position und den Reifegrad der Erdbeeren.
+                  Mittels zweier Greifer werden die reifen Früchte von den Pflanzen unter dem Roboter gepflückt. Wie ein Mensch umschließen dabei die Finger des Greifers die Erdbeere und trennen diese mit einer abdrehenden Bewegung von der Pflanze. So kann der Roboter auch neben Menschen eingesetzt und fließend in einen Betrieb integriert werden. Zusätzlich ist ein Einsatz über Nacht möglich, wodurch konstante künstliche Beleuchtung sogar vorteilhaftere Bedingungen für die Bildverarbeitungsalgorithmen des Roboters geschaffen werden.
+
+                  SHIVAA hat eine Größe von 245 x 120 x 100 cm und wiegt 150 kg. Das Robotersystem ist mit mehreren Sensoren ausgestattet: einer Stereokamera zur Bahnverfolgung im Feld, einer Multispektralkamera zum Detektieren und zur Klassifikation von Früchten, einem IMU/GPS zur Lokalisierung des Roboters im Feld und einigen Absolut Encodern in allen Antrieben. 
+
+
+                  Ziel des Projekts ist es, ein halbautonomes, mobiles System zu entwerfen und zu entwickeln, das in der Lage ist, Früchte unabhängig von menschlicher Interaktion zu ernten. Während Robotersysteme derzeit vor allem in Gewächshäusern eingesetzt werden, ist das Zielszenario des vorgeschlagenen Projekts das Freiland, unter Berücksichtigung der damit verbundenen typischen Umwelteinflüsse. Unter Berücksichtigung eines breiten Anwendungsspektrums und eines geringen Investitionsvolumens soll ein System entwickelt werden, das auch von kleineren Betrieben wirtschaftlich betrieben werden kann. Eine Anpassungsfähigkeit der Arbeitsleistung an den betriebsgrößenabhängigen Bedarf ist dann durch die Anzahl der parallel arbeitenden Kleinanlagen gegeben.'
+    active: False
+  space_climber:
+    tags: []
+    description: 'Der SpaceClimber ist ein freikletterndes Laufrobotersystem für extraterrestrische Krater. Intelligente, leichte, kraftvolle und energieeffiziente Gelenke waren bei der Entwicklung am Wichtigsten, sowie die Umsetzung neuartiger Fußkonzepte. Robustheit, Energieeffizienz,
+                  Ausfallsicherheit und Autonomie des Roboters waren ebenfalls Konzepte, die bei der Entwicklung berücksichtigt werden mussten.
+
+                  In seiner Grundhaltung hat der SpaceClimber eine Größe von 820 x 1000 x 220 mm und ein Gewicht von 18,5 Kg. Er bewegt sich mit einer Geschwindigkeit von 300mm/Sek vorwärts dank 24 Gelenke (48V RoboDrive Motoren / 100:1 HarmonicDrive Getriebe). In den Fußsohlen sind Druck- und 3-Achs-Beschleunigungssensor verbaut, sowie ein optischer Wegmesser im Federzylinder des Unterschenkels. Der Kopf ist ausgestattet mit einer Stereo-Kamera und einem Laserscanner.
+
+                  Ziel des Projekts SpaceClimber war die Bereitstellung von Technologie im Bereich Mobilität, welche zukünftige Krater- und Canyonexploration ermöglicht (auch das sichere Beherrschen von Steigungen von bis zu 80%). Der Roboter soll auf Basis der eingebrachten Sensorik in der Lage sein, lokal autonom zu navigieren und dank der Kamera seine Umgebung wahrzunehmen.'
+    active: False
+  spiderrobot:
+    tags: []
+    description: ''
+    active: False
+  reception:
+    tags: ['Tisch', 'Personal', 'Rezeption']
+    description: 'Empfang' # BITTE AUSBESSERN
+    active: False
+  staircase:
+    tags: ['Treppe']
+    description: 'Die Treppen!'
+    active: False
+  entrance:
+    tags: ['Tür', 'Eingang']
+    description: 'Der Eingang.'
+    active: False
