@@ -31,16 +31,16 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v5
       - run: uv sync
-      - run: uv pip install git+https://helloric:${{ secrets.LLM_PROJECT_TOKEN }}@git.hb.dfki.de/helloric/helloric-25/software/language-model@dev --no-deps
-        env:
-          GIT_LFS_SKIP_SMUDGE: 1
       - run: envsubst < mkdocs.yml > tmp.yml && rm mkdocs.yml && mv tmp.yml mkdocs.yml && uv run mkdocs gh-deploy --force
         env:
           EMOTION_PROJECT_TOKEN: ${{ secrets.EMOTION_PROJECT_TOKEN }}
           LLM_PROJECT_TOKEN: ${{ secrets.LLM_PROJECT_TOKEN }}
+          CHAT_PROJECT_TOKEN: ${{ secrets.CHAT_PROJECT_TOKEN }}
           NAVIGATION_PROJECT_TOKEN: ${{ secrets.NAVIGATION_PROJECT_TOKEN }}
           STT_PROJECT_TOKEN: ${{ secrets.STT_PROJECT_TOKEN }}
           TTS_PROJECT_TOKEN: ${{ secrets.TTS_PROJECT_TOKEN }}
+          PERSISTENCE_PROJECT_TOKEN: ${{ secrets.PERSISTENCE_PROJECT_TOKEN }}
+          MONGO_PROJECT_TOKEN: ${{ secrets.MONGO_PROJECT_TOKEN }}
           E_PLAN_PROJECT_TOKEN: ${{ secrets.E_PLAN_PROJECT_TOKEN }}
           ROLLEN_PROJECT_TOKEN: ${{ secrets.ROLLEN_PROJECT_TOKEN }}
           BASEPLATE_PROJECT_TOKEN: ${{ secrets.BASEPLATE_PROJECT_TOKEN }}

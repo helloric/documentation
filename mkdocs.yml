@@ -4,14 +4,21 @@ site_name: HelloRIC Documentation
 nav:
   - Home: index.md
   - User Interface: '!import https://helloric:${EMOTION_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/ui/emotion.git?branch=main&multi_docs=True'
-  - LLM Server: '!import https://helloric:${LLM_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/language-model.git?branch=dev&extra_imports=["src/**", "pyproject.toml"]&multi_docs=True'
-  - Speech to Text: '!import https://helloric:${STT_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/ros_stt.git?branch=main&multi_docs=True'
-  - Text to Speech: '!import https://helloric:${TTS_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/ros_tts.git?branch=main&multi_docs=True'
-  - Hardware E-Plan: '!import https://helloric:${E_PLAN_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/hardware/e-plan.git?branch=main&multi_docs=True'
-  - Hardware Rollen: '!import https://helloric:${ROLLEN_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/hardware/rollen.git?branch=main&multi_docs=True'
-  - Hardware Baseplate: '!import https://helloric:${BASEPLATE_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/hardware/baseplate.git?branch=main&multi_docs=True'
-  - Hardware Aussenshell: '!import https://helloric:${AUSSENSHELL_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/hardware/ausenshell-und-rollen.git?branch=main&multi_docs=True'
+  - AI:
+    - LLM: '!import https://helloric:${LLM_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/ros_llm.git?branch=main&multi_docs=True'
+    - Speech to Text: '!import https://helloric:${STT_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/ros_stt.git?branch=main&multi_docs=True'
+    - Text to Speech: '!import https://helloric:${TTS_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/ros_tts.git?branch=main&multi_docs=True'
+    - Chat: '!import https://helloric:${CHAT_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/ros_chat.git?branch=main&multi_docs=True'
+  - Tour:
+    - Tour Persistence: '!import https://helloric:${PERSISTENCE_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/tour_persistence_node.git?branch=main&multi_docs=True'
+    - MapDesc Persistence: '!import https://helloric:${MAPDESC_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/mapdesc_persistence.git?branch=main&multi_docs=True'
+    - MongoDB: '!import https://helloric:${MONGO_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/mongodb_server.git?branch=main&multi_docs=True'
   - HelloRIC UI COM: '!import https://helloric:${HELLORIC_UI_COM_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/helloric_ui_com.git?branch=main&multi_docs=True'
+  - Hardware:
+    - E-Plan: '!import https://helloric:${E_PLAN_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/hardware/e-plan.git?branch=main&multi_docs=True'
+    - Rollen: '!import https://helloric:${ROLLEN_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/hardware/rollen.git?branch=main&multi_docs=True'
+    - Baseplate: '!import https://helloric:${BASEPLATE_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/hardware/baseplate.git?branch=main&multi_docs=True'
+    - Aussenshell: '!import https://helloric:${AUSSENSHELL_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/hardware/ausenshell-und-rollen.git?branch=main&multi_docs=True'
   - Navigation: '!import https://helloric:${NAVIGATION_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-24/navigation/ricbot-simulation.git?branch=main&extra_imports=["docs/assets/*"]&multi_docs=True'
   - Zenoh Router: '!import https://helloric:${ZENOH_ROUTER_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/zenoh_router?branch=main&multi_docs=True'
 
