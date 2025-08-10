@@ -10,6 +10,7 @@ nav:
     - Text to Speech: '!import https://helloric:${TTS_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/ros_tts.git?branch=main&multi_docs=True'
     - Chat: '!import https://helloric:${CHAT_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/ros_chat.git?branch=main&multi_docs=True'
   - Tour:
+    - Tour Manager UI: '!import https://helloric:${TOUR_MANAGER_UI_TOKEN}@git.hb.dfki.de/helloric/base/tour-manager-ui.git?branch=main&multi_docs=True'
     - Tour Persistence: '!import https://helloric:${PERSISTENCE_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/tour_persistence_node.git?branch=main&multi_docs=True'
     - MapDesc Persistence: '!import https://helloric:${MAPDESC_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/mapdesc_persistence.git?branch=main&multi_docs=True'
     - MongoDB: '!import https://helloric:${MONGO_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/mongodb_server.git?branch=main&multi_docs=True'
