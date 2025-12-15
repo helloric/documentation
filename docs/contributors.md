@@ -52,6 +52,85 @@
 
 # Contributors
 
+## 2025
+<div style="
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 12px;
+  justify-items: center;
+  align-items: start;
+">
+
+<div style="text-align: center;">
+  <img src="/assets/helloric.png" 
+       style="width: 80px; max-width: 22vw; border-radius: 50%;" />
+  <br/>
+    <strong>Anton Tran</strong>
+  </a>
+</div>
+
+<div style="text-align: center;">
+  <a href="https://github.com/Terrails" style="text-decoration: none;">
+    <img src="https://github.com/Terrails.png" 
+         style="width: 80px; max-width: 22vw; border-radius: 50%;" />
+    <br/>
+    <strong>Filip Gojmerac</strong>
+  </a>
+</div>
+
+<div style="text-align: center;">
+  <img src="/assets/helloric.png" 
+       style="width: 80px; max-width: 22vw; border-radius: 50%;" />
+  <br/>
+    <strong>Alena Naumova</strong>
+  </a>
+</div>
+
+<div style="text-align: center;">
+  <a href="https://github.com/Satellarknighty" style="text-decoration: none;">
+    <img src="https://github.com/Satellarknighty.png" 
+         style="width: 80px; max-width: 22vw; border-radius: 50%;" />
+    <br/>
+    <strong>Viet Hai Trinh</strong>
+  </a>
+</div>
+
+
+<div style="text-align: center;">
+  <img src="/assets/helloric.png" 
+       style="width: 80px; max-width: 22vw; border-radius: 50%;" />
+  <br/>
+    <strong>Gizem Yildirim</strong>
+  </a>
+</div>
+
+<div style="text-align: center;">
+  <img src="/assets/helloric.png" 
+       style="width: 80px; max-width: 22vw; border-radius: 50%;" />
+  <br/>
+    <strong>Batuhan Gürel</strong>
+  </a>
+</div>
+
+<div style="text-align: center;">
+  <img src="/assets/helloric.png" 
+       style="width: 80px; max-width: 22vw; border-radius: 50%;" />
+  <br/>
+    <strong>Aleksandr Kononov</strong>
+  </a>
+</div>
+
+<div style="text-align: center;">
+  <img src="/assets/helloric.png" 
+       style="width: 80px; max-width: 22vw; border-radius: 50%;" />
+  <br/>
+    <strong>Ahmed Shirdon</strong>
+  </a>
+</div>
+
+
+</div>
+
 ## 2024
 <!-- responsive grid with compact layout -->
 <div style="
