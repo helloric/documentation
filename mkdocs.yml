@@ -3,6 +3,7 @@ site_name: HelloRIC Documentation
 # TODO: Add basic section about kobuki-drivers
 nav:
   - Home: index.md
+  - RICbot Operation: ricbot-operation.md
   - Emotion UI: '!import https://helloric:${EMOTION_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/ui/emotion.git?branch=main&multi_docs=True'
   - AI:
     - LLM: '!import https://helloric:${LLM_PROJECT_TOKEN}@git.hb.dfki.de/helloric/helloric-25/software/ros_llm.git?branch=main&multi_docs=True'
